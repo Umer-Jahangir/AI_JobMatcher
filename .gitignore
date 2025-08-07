@@ -1,0 +1,74 @@
+# === PYTHON / DJANGO ===
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+env/
+venv/
+ENV/
+env.bak/
+*.sqlite3
+db.sqlite3
+.DS_Store
+
+# Django specific
+*.log
+*.pot
+*.pyc
+*.mo
+*.db
+*.tgz
+*.bak
+*.swp
+*.tmp
+*.env
+.env*
+local_settings.py
+.settings/
+
+# === REACT ===
+node_modules/
+build/
+dist/
+*.log
+.env
+.env.*
+
+# === REDIS / DOCKER ===
+*.rdb
+*.aof
+
+# Docker
+*.pid
+*.seed
+docker-compose.override.yml
+
+# === SYSTEM FILES ===
+*.swp
+*~
+*.bak
+*.tmp
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# === COVERAGE / TESTING ===
+htmlcov/
+coverage.xml
+.tox/
+.pytest_cache/
+.nyc_output/
+
+# === LOG FILES ===
+*.log
+
+# === MISC ===
+*.zip
+*.tar.gz
+*.tgz
+*.orig
+*.lock
